@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-1 {
+  border: 1px solid hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+}
+
+
+.back-img{
+    background-image: url(./img/bg-section-top-desktop-1.svg);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.back-button{
+    background-image: url(./img/bg-section-bottom-desktop-1.svg);
+    height: 20vh;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-div{
+  background-color: hsl(207, 100%, 98%);
+}
+
+.back-img-1{
+  background-image: url(./img/bg-section-top-desktop-2.svg);
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back-button-1{
+  background-image: url(./img/bg-section-bottom-desktop-2.svg);
+  height: 20vh;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footer-img{
+  background-image: url(./img/bg-footer-top-desktop.svg);
+  height: 20vh;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-div{
+  background-color: hsl(192, 100%, 9%);
+}
+@media(max-width:640px){
+  .back-img{
+    background-image: url(./img/bg-section-top-mobile-1.svg);
+       height: 30vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+      }
+
+      .back-button{
+        background-image: url(./img/bg-section-bottom-mobile-1.svg);
+        height: 30vh;
+        background-color: transparent; 
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+      .back-img-1{
+        background-image: url(./img/bg-section-top-mobile-2.svg);
+        height: 20vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .back-button-1{
+        background-image: url(./img/bg-section-bottom-mobile-2.svg);
+        height: 20vh;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .footer-img{
+        background-image: url(./img/bg-footer-top-mobile.svg);
+        height: 20vh;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+   
+}
+
+
